@@ -1,0 +1,5 @@
+@mixin customBox {
+    box-shadow: 0 0 4px rgba(25, 35, 49, .1), 0 2px 4px rgba(25, 35, 49, .04);
+    border-radius: .5714285714rem;
+    background: white;
+  }

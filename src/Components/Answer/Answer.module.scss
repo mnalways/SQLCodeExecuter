@@ -1,0 +1,23 @@
+.answer{
+    padding: 12px;
+    height: 100%;
+}
+
+.titleActionContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.visualizationContainer{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.EmptyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}

@@ -1,0 +1,29 @@
+.home {
+     height: 100vh;
+     overflow: hidden;
+     background: #f2f3f4;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 50px;
+    z-index: 1000;
+}
+
+.mainContent {
+    margin-top: 50px;
+    padding: 16px;
+    height: calc(100% - 50px);
+    width: 100%;
+  }
+
+@media (max-width: 900px) {
+    /* Apply styles to start horizontal scrolling */
+    .home {
+       width: 900px;
+      overflow-x: scroll;
+    }
+  }

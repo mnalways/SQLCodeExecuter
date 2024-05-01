@@ -1,0 +1,16 @@
+@import './../../../Utility/mixins.scss';
+
+.searchBar {
+    display: flex;
+}
+
+.textArea {
+    @include customBox;
+    margin-right: 16px;
+    width: 90%;
+}
+
+.actions{
+    width: 10%;
+    @include customBox;
+}
